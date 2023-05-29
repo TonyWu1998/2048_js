@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+}
+
+#app {
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.board {
+  display: inline-block;
+  position: relative;
+  border: 1px solid black;
+  background-color: #795548;
+  border-radius: 5%;
+}
+
+.block {
+  position: absolute;
+
+  padding: 10px;
+
+  box-sizing: border-box;
+}
+
+.block .background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 20%;
+}
